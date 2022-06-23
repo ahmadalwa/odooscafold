@@ -1,1 +1,6 @@
+//scaffold command on docker
 docker exec odoo13-odoo_web-1  /usr/bin/odoo scaffold openacademy /t-box
+
+//log on file inside docker container
+docker exec -it -u root XXXX bash
+//  xxxx = container name
