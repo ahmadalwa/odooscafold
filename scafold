@@ -1,4 +1,9 @@
 //scaffold command on docker
+docker exec -it --user root  15_odoo_web_1  odoo  scaffold openacademy /customm
+on ubuntu
+
+or
+
 docker exec odoo13-odoo_web-1  /usr/bin/odoo scaffold openacademy /t-box
 
 //log on file inside docker container
